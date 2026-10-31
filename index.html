@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Calliope Tulea portfolio"><style>body{margin:0}</style></head><body>
 <title>Calliope Tulea</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style id="css">
 /* Layout: airy white page. Sticky index rail left, one long column right. Hairline rules, big serif headings, dashed writing zones only in edit mode. */
 :root {
@@ -14,15 +14,15 @@
   --line-strong: #c9ced8;
   --accent: #2c4bd1;
   --accent-soft: #eef1fd;
-  --display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
-  --body: "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --mono: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --display: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --body: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
 body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--body);
-  font-size: 17px;
+  font-size: 16.5px;
   line-height: 1.65;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
@@ -42,15 +42,15 @@ body {
 .rail a:hover, .rail a:focus-visible { color: var(--accent); outline: none; }
 main { min-width: 0; display: flex; flex-direction: column; gap: 96px; }
 .kicker { font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin: 0 0 14px; }
-h1, h2 { font-family: var(--display); font-weight: 400; letter-spacing: -0.01em; line-height: 1.02; margin: 0; text-wrap: balance; }
-h1 { font-size: clamp(3.2rem, 9vw, 6rem); }
-h2 { font-size: clamp(2.3rem, 5.4vw, 3.6rem); }
+h1, h2 { font-family: var(--display); font-weight: 700; letter-spacing: -0.035em; line-height: 1.05; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(2.8rem, 8vw, 5rem); }
+h2 { font-size: clamp(2rem, 4.6vw, 3rem); }
 .hero { display: flex; flex-direction: column; gap: 22px; }
 .tagline { font-size: 1.35rem; line-height: 1.45; margin: 0; max-width: 32ch; text-wrap: balance; }
 .intro { margin: 0; max-width: 60ch; color: var(--mute); }
 .wins { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .win { padding: 20px 22px 22px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 6px; min-width: 0; }
-.win .k { font-family: var(--display); font-size: 2rem; line-height: 1.05; color: var(--accent); }
+.win .k { font-family: var(--display); font-weight: 700; font-size: 1.6rem; letter-spacing: -0.02em; line-height: 1.1; color: var(--accent); }
 .win .t { font-weight: 500; line-height: 1.35; }
 .win .y { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; color: var(--mute); text-transform: uppercase; }
 .proj { display: flex; flex-direction: column; gap: 36px; scroll-margin-top: 32px; }
